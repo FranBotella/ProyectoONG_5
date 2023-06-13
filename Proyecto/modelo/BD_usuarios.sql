@@ -18,7 +18,7 @@ CREATE TABLE `usuarios` (
   `contraseñaEncriptada` varchar(72) NOT NULL,
   `correo` varchar(50) NOT NULL,
   `nivel` int(11) NOT NULL DEFAULT 1,
-  `baja` varchar(20) DEFAULT 'no_baja'
+  `baja` varchar(20) DEFAULT 'baja'
  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
