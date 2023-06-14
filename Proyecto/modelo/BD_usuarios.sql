@@ -94,10 +94,7 @@ ALTER TABLE `carrito`
 ALTER TABLE `carrito`
   MODIFY `id` int(1) NOT NULL AUTO_INCREMENT;
 
-ALTER TABLE `carrito`
-  ADD FOREIGN KEY (`idProducto`) REFERENCES `productos`(`id`);
-ALTER TABLE `carrito`
-  ADD FOREIGN KEY (`idUsuario`) REFERENCES `usuarios`(`id`);
+
 
 
   
